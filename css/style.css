@@ -1,0 +1,165 @@
+/***********UNIVERSAL SELCTOR AND CLASSES STARTS HERE**************/
+
+/*UNIVERSAL SELECTOR*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(161, 158, 158);
+    background-attachment: fixed;
+}
+/***** Class for all section*******/
+.sec{
+    text-align: center;
+    padding: 2rem;
+}
+
+/***class for all h1's****/
+.heading{
+    font-weight: 900;
+    color: tomato;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 6px 8px 18px darkgray;
+}
+
+/*****class for all paragraph*****/
+.para{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 700;
+    line-height: 2rem;
+    padding: 2rem;
+}
+
+/*********UNIVERSAL SELCTOR AND CLASSES STARTS HERE*************/
+
+/***********ELEMENT SELF CLASSES STARTS HERE***********************/
+
+/***SECTION CLASSES STARTS HERE**/
+
+.secsolid{
+    border: 3px solid blue;
+    font-family:Helvetica, sans-serif;
+    background: dodgerblue;
+    background-image: url('/images/forestbridge.jpg');
+}
+/*Pseudo elements*/
+.secsolid:hover{
+    background-image: url('/images/forestbridge.jpg');
+}
+
+.secdotted{
+    border: 6px dotted red;
+    text-align: right;
+    font-family:'Courier New', Courier, monospace;
+    background: dodgerblue;
+}
+/*Pseudo elements*/
+.secdotted:hover{
+    background-image: url('/images/forestbridge.jpg');
+    box-shadow:7px 1px 45px tomato;
+    background-attachment: fixed;
+}
+
+.secdashed{
+    border: 3px dashed green;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
+/*Pseudo elements*/
+.secdashed:hover{
+    
+}
+
+.secdoubled{
+    border: 3px double yellow;
+}
+/*Pseudo elements*/
+.secdoubled:hover{
+    
+}
+
+.secridge{
+    border: 3px ridge brown;
+}
+/*Pseudo elements*/
+.secridge:hover{
+    
+}
+
+/***SECTION CLASSES ENDS HERE**/
+
+/**heading classes starts here**/
+h1{
+    font-size: 2rem;
+    color:springgreen;
+}
+.h1solid{
+    border: 3px solid blue;
+    text-decoration:4px overline aqua;
+}
+.h1dotted{
+    border: 6px dotted red;
+    text-decoration: line-through;
+}
+.h1dashed{
+    border: 3px dashed green;
+    text-decoration:underline;
+    background-color: blueviolet;
+}km
+.h1doubled{
+    border: 6px double yellow;
+    text-decoration:wavy;
+}
+.h1ridge{
+    border: 3px ridge brown;
+}
+/**heading classes Ends here**/
+
+/**Paragraph classes starts here**/
+.parasolid{
+    border: 3px solid blue;
+    font-style: italic;
+    color:#545353;
+    text-align: left;
+    background-image: url('/images/chicago.jpg');
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+
+    color: tomato;
+    text-shadow: 3px 3px 23px black;
+}
+.parasolid:hover{
+   text-shadow:2px 2px 14px #545353;
+}
+.paradotted{
+    border: 6px dotted red;
+    font-style:oblique;
+    color:mediumaquamarine;
+    text-align: right;
+    background-image: url('/images/chicago.jpg');
+}
+.paradashed{
+    border: 5px dashed green;
+    font-style:initial;
+    text-align: center;
+    background-attachment:fixed;
+    background-image: url('/images/mac.jpg');
+}
+.paradoubled{
+    border: 5px double yellow;
+    font-style:inherit;
+}
+.pararidge{
+    border: 3px ridge brown;
+    font-style:unset;
+}
+/**Paragraph classes Ends here**/
+
+/***********ELEMENT SELF CLASSES STARTS HERE***********************/
